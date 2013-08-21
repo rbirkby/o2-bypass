@@ -1,6 +1,6 @@
 <%
 
-Response.Cache.SetNoTransforms();
+Response.Cache.SetNoTransforms()
 
 %>
 
