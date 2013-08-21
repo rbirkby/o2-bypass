@@ -18,7 +18,9 @@ var vm = function() {
   this.DoNotShow = ko.observable(false);
 };
 
-ko.applyBindings(vm);
+var model = new vm();
+
+ko.applyBindings(model);
 
 });
 </script>
